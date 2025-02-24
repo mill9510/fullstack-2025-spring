@@ -12,7 +12,7 @@ function App() {
   const [selectedGenre, setSelectedGenre] = useState<Genre | null>(null);
   const [selectedPlatform, setSelectedPlatform] = useState<Platform | null>(null);
 
-  const handeOnSelectedGenre = (genre: Genre) => 
+  const handeOnSelectedGenre = (genre: Genre | null) => 
     setSelectedGenre(genre);
 
   const handleOnSelectedPlatform = (platform: Platform | null) => 
