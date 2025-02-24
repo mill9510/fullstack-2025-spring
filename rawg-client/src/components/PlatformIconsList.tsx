@@ -35,6 +35,8 @@ const PlatformIconsList = ({ platforms }: Props) => {
         return MdPhoneIphone;
       case "nintendo":
         return SiNintendo;
+        default:
+          return undefined;
     }
   };
 
