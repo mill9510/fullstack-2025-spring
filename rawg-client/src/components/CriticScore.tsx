@@ -11,7 +11,6 @@ const CriticScore = ({ score }: Props) => {
     return "red";
   };
 
-
   if (!score) return null;
 
   return (
